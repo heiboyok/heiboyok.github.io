@@ -1,0 +1,29 @@
+.container { 
+width: 100%;
+margin: 0;  
+overflow: hidden;
+} 
+.day { 
+background: rgb(250, 164, 4,0.7);   
+color: black;
+font-weight: bold;
+}
+.night {  
+background: rgb(107, 107, 107,0.7);
+color: black;
+font-weight: bold;
+}
+body { 
+width: 100%;  
+margin: auto; 
+animation: sky 10s infinite;
+}
+table {
+margin: auto;   
+}
+@media (max-width: 768px) {    
+table {
+width: 100%;
+height: 100vh; 
+}
+}
